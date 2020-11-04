@@ -227,8 +227,11 @@ void misra_7_1() {
 
 void misra_7_2_call_test(int a, unsigned int b, unsigned int c) { } // 2.7
 
+<<<<<<< HEAD
 void misra_7_2_call_va_test(int a, ...) { } // 2.7
 
+=======
+>>>>>>> MISRA rule 7.2 Require 'u' prefix when using large unsigned integer constants.
 void misra_7_2() {
     unsigned int a = 2147483647;
     const unsigned int b = 2147483648U;
